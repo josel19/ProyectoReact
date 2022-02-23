@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Buscador from './Componentes/Buscador';
 import Resultado from './Componentes/Resultado';
 class App extends Component {
-
+ 
   state = {
     termino: '',
     imagenes : [],
@@ -52,16 +52,16 @@ class App extends Component {
     return( 
       <div className="app container">
             <div className="jumbotron">
-                <p className="lead text-center">Buscador de imagenes</p>
+                <p className="lead text-center fs-1">Buscador de imagenes</p>
                 <Buscador
                 datosBusqueda={this.datosBusqueda}
                 />
             </div>
             <div className="row justify-content-center">
                 <Resultado
-                imagenes={this.state.imagenes}
-                paginaSiguiente={this.paginaSiguiente}
-                paginaAnterior={this.paginaAnterior}
+                  imagenes={this.state.imagenes}
+                  paginaSiguiente={this.paginaSiguiente}
+                  paginaAnterior={this.paginaAnterior}
                 />
             </div>
       </div>

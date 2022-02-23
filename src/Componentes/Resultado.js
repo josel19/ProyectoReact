@@ -18,8 +18,8 @@ console.log(this.props.imagenes);
                                 ))}
                         </div>
                         <Paginacion
-                        paginaSiguiente={this.paginaSiguiente}
-                        paginaAnterior={this.paginaAnterior}
+                        paginaSiguiente={this.props.paginaSiguiente}
+                        paginaAnterior={this.props.paginaAnterior}
                         />
                 </React.Fragment>
           )
