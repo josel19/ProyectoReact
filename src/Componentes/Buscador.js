@@ -21,7 +21,7 @@ class Buscador extends Component {
                         <input ref={this.busquedaReft} type="text" className="form-control form-control-lg" placeholder="Busca una imagen..."/>
                     </div>
                     <div className="form-group col-md-4">
-                        <input type="submit" className="btn btn-lg btn-primary btn-block" value="Buscar"/>
+                        <input type="submit" className="btn btn-lg btn-danger btn-block" value="Buscar"/>
                     </div>
                 </div>
             </form>

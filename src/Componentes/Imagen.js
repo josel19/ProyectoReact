@@ -11,7 +11,7 @@ const Imagen = (props) => {
              <div className="card-body">
                  <p className="card-text">{likes} Me gusta</p>
                  <p className="card-text">{views} Vistas</p>
-                 <a href={largeImageURL} traget="_blank" className="btn btn-primary btn btn-block">ver imagen</a>
+                 <a href={largeImageURL} traget="_blank" className="btn btn-danger btn btn-block">ver imagen</a>
              </div>
          </div>
      </div>
